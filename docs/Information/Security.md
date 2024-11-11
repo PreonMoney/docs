@@ -16,6 +16,8 @@ All collateral types are peer-reviewed & tested to ensure they are safe to use.
 
 - [Audit 2 - Peckshield (May 2024)](https://drive.google.com/file/d/1vjAsAaG_pjIrWZaQiJLkSEmupFsFovsU/view)
 
+- [Audit 3 (AMO) - Peckshield (November 2024)](https://drive.google.com/file/d/19-0VliDJjuQ5l1EE7yn7F961eClXZojT/view)
+
 ## Codebase
 
 **$wETH, $wMATIC, $stMATIC & $wstETH Nebula Vault**
