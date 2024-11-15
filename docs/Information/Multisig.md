@@ -8,7 +8,7 @@ sidebar_position: 1
 | ---------------------- | ------------------------------------------ | ------------------ |
 | Preon Deployer Address | 0x443Af6E1195bBf12876be3DA891aD5c67c0Efc56 | Preon              |
 | Geometrus              | 0xb4B8f2DAEdc38F491dc2a9fC39a21576c711D691 | Sphere Founder     |
-| Dan                    | 0x337bFF0331FF9d6Bfd679Eb6A587136A9ac7b962 | Sphere Founder     |
+| Aqua                   | 0x0a4f575955b4550b0b78ce6f16c6a5245668116c | Sphere Team       |
 | Rux                    | 0x715A7649f45fBED8E2B56c566FBf886550e1eEaD | Sphere Team        |
 | Ralph                  | 0xd6F073F2Cd09f4951449101989E2c34bD8053366 | Sphere Team        |
 | Kato                   | 0x9baCEc26542a3652A131aff8aE10Bd0787CFed1A | Sphere Community   |
