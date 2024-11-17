@@ -1,0 +1,151 @@
+/* Base styles */
+:root {
+    --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --rounded-corners: 6px;
+    --button-hover-bg: #f2f2f2;
+    --button-active-bg: #e2e2e2;
+    --control-bg-color: #ffffff;
+    --text-color: #333333;
+    }
+    
+    /* Container needing to be set to a flex container to center the child */
+    .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%; /* or a fixed height as per your design */
+    position: relative;
+    }
+    
+    /* Page controls specific styles */
+    .pageControls {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 10%;
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    box-shadow: var(--shadow);
+    border-radius: var(--rounded-corners);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    }
+    
+    /* Parent hover effects */
+    .container:hover .pageControls {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    }
+    
+    .pageControls span {
+    font-size: 0.9em;
+    color: var(--text-color);
+    background: var(--control-bg-color);
+    padding: 0 0.5em;
+    }
+    
+    .pageControls button {
+    width: 36px;
+    height: 36px;
+    background: var(--control-bg-color);
+    border: 0;
+    font-size: 0.9em;
+    color: var(--text-color);
+    border-radius: var(--rounded-corners);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.2s;
+    }
+    
+    .pageControls button:enabled:hover {
+    cursor: pointer;
+    background-color: var(--button-hover-bg);
+    }
+    
+    .pageControls button:enabled:active {
+    background-color: var(--button-active-bg);
+    transform: scale(0.9);
+    }
+    
+    .pageControls button:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    }
+    
+    .pageControls button:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    }
+    
+    .searchControls {
+    position: absolute;
+    bottom: 100%;
+    transform: translateX(-50%);
+    left: 100%;
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    box-shadow: var(--shadow);
+    border-radius: var(--rounded-corners);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    }
+    
+    /* Parent hover effects */
+    .container:hover .searchControls {
+    opacity: 1;
+    visibility: visible;
+    }
+    
+    .documentViewer {
+    display: flex;  /* Establishes a flex container */
+    align-items: stretch;  /* Align children full height of the container */
+    justify-content: start;  /* Align children to the start of the flex container */
+    width: 100%;  /* Takes full width of its parent container */
+    height: 100%;  /* Optional: Adjust based on your layout needs */
+    }
+    
+    .documentViewer > .react-pdf__Outline {
+    flex: 1;  /* Allows the outline to grow and take up space */
+    border-right: 1px solid #ccc;  /* Adds a separator between the outline and the page */
+    padding-right: 20px;  /* Adds some padding for visual spacing */
+    overflow-y: auto;  /* Adds scroll to the outline if content overflows */
+    }
+    
+    .documentViewer > .react-pdf__Page {
+    flex: 3;  /* Allows the page to take more space than the outline */
+    padding-left: 20px;  /* Adds some padding for visual spacing */
+    }
+    
+    
+    /* Page controls specific styles */
+    .searchControls {
+    position: absolute;
+    bottom: 100%;
+    transform: translateX(-50%);
+    left: 100%;
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    box-shadow: var(--shadow);
+    border-radius: var(--rounded-corners);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    }
+    
+    /* Parent hover effects */
+    .container:hover .searchControls {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    }
