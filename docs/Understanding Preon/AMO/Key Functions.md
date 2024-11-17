@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 
-# Key Functions of the Preon AMO:
+# Key Functions of the Preon AMO
 
 ## Peg Stability:
 

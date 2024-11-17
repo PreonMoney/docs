@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 
-# How the Preon AMO Works:
+# How the Preon AMO Works
 
 ## Dynamic Operations:
 
