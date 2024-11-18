@@ -11,4 +11,4 @@ The AMO autonomously mints and burns $STAR based on supply-demand imbalances. Th
 
 ## Liquidity Deployment:
 
-The AMO manages the $USDC-$STAR liquidity pool (LP) by depositing $USDC and $STAR in balanced proportions. The minted $STAR follows a programmatic schedule, and when $STAR is sold back for $USDC, the protocol burns the proportional amount of $STAR during rebalancing to ensure nothing unbacked leaves the system.
+The AMO manages the $USDC-$STAR LP by depositing $USDC and $STAR in balanced proportions. The minted $STAR follows a programmatic schedule, and when $STAR is sold back for $USDC, the protocol burns the proportional amount of $STAR during rebalancing to ensure nothing unbacked leaves the system.
