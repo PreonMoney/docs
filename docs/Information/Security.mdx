@@ -1,10 +1,11 @@
 ---
 sidebar_position: 2
 ---
-import PdfEmbed from '@site/src/components/PdfEmbed';
-import pdf1 from '@site/src/components/PdfEmbed/pdfs/Preon-Audit-June-2023.pdf';
-import pdf2 from '@site/src/components/PdfEmbed/pdfs/PeckShield-Audit-Report-Preon.pdf';
-import pdf3 from '@site/src/components/PdfEmbed/pdfs/PeckShield-Audit-Report-Preon-AMO.pdf';
+
+import { PdfEmbedWrapper } from "@site/src/components/PdfEmbed";
+import pdf1 from "@site/src/components/PdfEmbed/pdfs/Preon-Audit-June-2023.pdf";
+import pdf2 from "@site/src/components/PdfEmbed/pdfs/PeckShield-Audit-Report-Preon.pdf";
+import pdf3 from "@site/src/components/PdfEmbed/pdfs/PeckShield-Audit-Report-Preon-AMO.pdf";
 
 # Security
 
@@ -16,21 +17,23 @@ All collateral types are peer-reviewed & tested to ensure they are safe to use.
 
 # Audits
 
+## Audit 1 - Dedaub (June 2023)
 
+{" "}
 
+<PdfEmbedWrapper src={pdf1} />
 
- ## Audit 1 - Dedaub (June 2023)
+## Audit 2 - Peckshield (May 2024)
 
- <PdfEmbed src={pdf1} />
+{" "}
 
- ## Audit 2 - Peckshield (May 2024)
+<PdfEmbedWrapper src={pdf2} />
 
- <PdfEmbed src={pdf2} />
+## Audit 3 (AMO) - Peckshield (November 2024)
 
- ## Audit 3 (AMO) - Peckshield (November 2024)
+{" "}
 
- <PdfEmbed src={pdf3} />
-
+<PdfEmbedWrapper src={pdf3} />
 
 ## Codebase
 
