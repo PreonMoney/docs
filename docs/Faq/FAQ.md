@@ -5,7 +5,7 @@
 # What are the key benefits of Preon?
 
 Preon offers several key benefits to its users. It is a zero-percent-interest CDP (Collateralized Debt Position) protocol within the Sphere Ecosystem. This means you can open a collateralized debt position, and deposit a wide variety of tokens without incurring any interest.
-Additionally, Preon offers yield farming capabilities for $STAR while your collateral is also made yield-bearing through farming with low-risk strategies, which optimizes your yield returns. This makes Preon an attractive and secure environment for both new and experienced DeFi users.
+Additionally, Preon offers yield farming capabilities for STAR while your collateral is also made yield-bearing through farming with low-risk strategies, which optimizes your yield returns. This makes Preon an attractive and secure environment for both new and experienced DeFi users.
 
 # Is using Preon safe?
 
@@ -15,45 +15,45 @@ Furthermore, Preon's smart contracts are upgradeable, allowing for continuous im
 
 # How can I use Preon?
 
-Preon provides multiple functionalities for a variety of users. Users can open a collateralized debt position to borrow the $STAR stablecoin, depositing various tokens as collateral.
-The protocol also supports yield farming through the Stability Pool, allowing users to earn yield with $STAR. Preon allows users to leverage numerous varied collateral types, giving a significant amount of versatility when accessing the protocol’s solutions.
-Additionally, $STAR Stability Pool providers can participate in yield farming activities, and $PREON token holders can lock their tokens into the protocol’s veNFT contract, which gives them $vePREON.
+Preon provides multiple functionalities for a variety of users. Users can open a collateralized debt position to borrow the STAR stablecoin, depositing various tokens as collateral.
+The protocol also supports yield farming through the Stability Pool, allowing users to earn yield with STAR. Preon allows users to leverage numerous varied collateral types, giving a significant amount of versatility when accessing the protocol’s solutions.
+Additionally, STAR Stability Pool providers can participate in yield farming activities, and PREON token holders can lock their tokens into the protocol’s veNFT contract, which gives them vePREON.
 
 # Are there any fees or negative APYs for using Preon?
 
-Preon charges minimal fees for maintenance and upkeep of the protocol, and to provide yield for $vePREON holders.
+Preon charges minimal fees for maintenance and upkeep of the protocol, and to provide yield for vePREON holders.
 Preon does not charge interest on debt. There is a small borrow fee of up to 8% paid over 6 months, as well as an upfront redemption fee of 0.5%.
-Additionally, a performance fee is taken on any farming done via a Nebula Vault, which is distributed to $vePREON lockers.
+Additionally, a performance fee is taken on any farming done via a Nebula Vault, which is distributed to vePREON lockers.
 
 # What are OFTs?
 
-OFTs, or Omnichain Fungible Tokens, are tokens that are interoperable across multiple chains, facilitated by LayerZero technology. This integration with LayerZero makes both $PREON and $STAR OFTs, enhancing flexibility and utility across different chains.
+OFTs, or Omnichain Fungible Tokens, are tokens that are interoperable across multiple chains, facilitated by LayerZero technology. This integration with LayerZero makes both PREON and STAR OFTs, enhancing flexibility and utility across different chains.
 
 # What is a Stability Pool?
 
-The Stability Pool is a mechanism that $STAR users can utilize to earn liquidation fees. Stability Pools are essential for CDPs, ensuring that the supply of $STAR is always collateralized.
-Preon’s Stability Pool is instrumental in maintaining the stability of the $STAR stablecoin peg. It ensures that one $STAR token is always backed by more than $1 in collateral via over-collateralization.
-Since blue-chip assets are so volatile and experience significant fluctuations in price on a regular basis, one way that Preon protects the over-collateralization of $STAR (and thus its peg) is through the Stability Pool, which acts as the first line of defense for the $STAR peg.
-To incentivize users to deposit $STAR into the Stability Pool, SP providers receive emissions in $oPREON, which they can later redeem for $STAR or $PREON, or zap into $vePREON.
+The Stability Pool is a mechanism that STAR users can utilize to earn liquidation fees. Stability Pools are essential for CDPs, ensuring that the supply of STAR is always collateralized.
+Preon’s Stability Pool is instrumental in maintaining the stability of the STAR stablecoin peg. It ensures that one STAR token is always backed by more than $1 in collateral via over-collateralization.
+Since blue-chip assets are so volatile and experience significant fluctuations in price on a regular basis, one way that Preon protects the over-collateralization of STAR (and thus its peg) is through the Stability Pool, which acts as the first line of defense for the STAR peg.
+To incentivize users to deposit STAR into the Stability Pool, SP providers receive emissions in oPREON, which they can later redeem for STAR or PREON, or zap into vePREON.
 
 # What are Nebula Vaults?
 
-Nebula Vaults are smart contract vaults that act as collateral in exchange for the ability to borrow $STAR. These vaults are the backing of the stablecoin and are used mainly to optimize the farming opportunities for all users in different ways.
+Nebula Vaults are smart contract vaults that act as collateral in exchange for the ability to borrow STAR. These vaults are the backing of the stablecoin and are used mainly to optimize the farming opportunities for all users in different ways.
 
 # Is there a maximum number of vaults one can open?
 
 You can open one vault per collateral type.
 
-# Is there a permanent Auto-Lock feature for $vePREON?
+# Is there a permanent Auto-Lock feature for vePREON?
 
 Not at the moment.
 
-# What are the steps to provide liquidity for $STAR?
+# What are the steps to provide liquidity for STAR?
 
-To provide liquidity for the $STAR token, you can either:
-Mint $STAR on the Preon dashboard or swap for $STAR on any DEX that has it listed.
+To provide liquidity for the STAR token, you can either:
+Mint STAR on the Preon dashboard or swap for STAR on any DEX that has it listed.
 Provide liquidity on any DEX that you wish.
-Through Preon’s integration with Dyson, users can deposit $STAR LPs into Dyson’s vaults to earn auto-compounded yield.
+Through Preon’s integration with Dyson, users can deposit STAR LPs into Dyson’s vaults to earn auto-compounded yield.
 
 # Can the developers do something if I get liquidated?
 

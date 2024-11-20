@@ -11,11 +11,11 @@ sidebar_position: 1
 # What is Preon?
 
 ​
-[Preon](https://www.preon.finance/) is a decentralized CDP (or Collateralized Debt Position) protocol that allows you to borrow against your crypto - at 0% interest. Loans are paid out in $STAR (our USD-pegged stablecoin) with a minimum maintained collateral ratio of 110%.
+[Preon](https://www.preon.finance/) is a decentralized CDP (or Collateralized Debt Position) protocol that allows you to borrow against your crypto - at 0% interest. Loans are paid out in STAR (our USD-pegged stablecoin) with a minimum maintained collateral ratio of 110%.
 
-Preon accepts multiple token types as collateral, making $STAR available to a wide range of users. This makes Preon one of the few CDP protocols that charge no interest for leverage-farming.
+Preon accepts multiple token types as collateral, making STAR available to a wide range of users. This makes Preon one of the few CDP protocols that charge no interest for leverage-farming.
 
-$STAR can be redeemed for $1 of underlying collateral, minus protocol fees.
+STAR can be redeemed for $1 of underlying collateral, minus protocol fees.
 
 For more information - [join our Discord](https://discord.com/invite/preon)!
 

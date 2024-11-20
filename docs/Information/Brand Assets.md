@@ -10,7 +10,7 @@ A guide to using Preon's brand assets
 
 ### Description
 
-The Next-Generation CDP Protocol. Powered by its native $STAR stablecoin and $PREON utility token, Preon brings omnichain capabilities to the forefront of decentralized finance. Leveraging decentralized governance, Preon offers a seamless and secure borrowing experience across multiple chains. Experience a new level of stability, flexibility, and community-driven governance with Preon.
+The Next-Generation CDP Protocol. Powered by its native STAR stablecoin and PREON utility token, Preon brings omnichain capabilities to the forefront of decentralized finance. Leveraging decentralized governance, Preon offers a seamless and secure borrowing experience across multiple chains. Experience a new level of stability, flexibility, and community-driven governance with Preon.
 
 ## Visual Assets
 
@@ -24,7 +24,7 @@ The Next-Generation CDP Protocol. Powered by its native $STAR stablecoin and $PR
 
 | ![StarOnDark!](../assets/star-dark-ui.png "Star on Dark UI") | ![StarOnLight!](../assets/star-light-ui.png "Star on Dark UI") |
 | ------------------------------------------------------------ | -------------------------------------------------------------- |
-| $STAR on light UI (455 x 469)                                | $STAR on dark UI (455 x 469)                                   |
+| STAR on light UI (455 x 469)                                | STAR on dark UI (455 x 469)                                   |
 
 ### Preon Logotype
 
