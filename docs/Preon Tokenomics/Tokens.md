@@ -6,15 +6,15 @@ sidebar_position: 1
 
 Definitions & Concepts
 
-# $PREON — ERC-20 native OFT utility token
+# PREON — ERC-20 native OFT utility token
 
-$PREON is the protocol’s main utility token powered by LayerZero, giving users the ability to engage in secondary market activity, provide liquidity, and lock into $vePREON through the protocol’s veNFT contract.
+PREON is the protocol’s main utility token powered by LayerZero, giving users the ability to engage in secondary market activity, provide liquidity, and lock into vePREON through the protocol’s veNFT contract.
 
-$PREON’s initial mint supply: 500,000,000
+PREON’s initial mint supply: 500,000,000
 
-$PREON has an elastic supply due to being an emissions token.
+PREON has an elastic supply due to being an emissions token.
 
-$PREON epochs will start minting at 2% of initial supply or 10,000,000 $PREON 
+PREON epochs will start minting at 2% of initial supply or 10,000,000 PREON 
 
 The decay rate of emissions is set at 1%.
 
@@ -33,17 +33,17 @@ Any unused emissions will be forwarded to a time of greater TVL and not used any
 ![PreonInitialMintDistribution!](../assets/Preon-Initial-Mint-Distribution.png "Preon Initial Mint Distribution")
 
 
-LP Treasury ($PREON): This allocation is unlocked, and will be used for the creation of $PREON liquidity pools across multiple chains.
+LP Treasury (PREON): This allocation is unlocked, and will be used for the creation of PREON liquidity pools across multiple chains.
 
-Treasury/ylSphere ($vePREON): This allocation was given to the Sphere treasury in the form of a veNFT and will remain locked. The veNFT will start as blacklisted and gradually become whitelisted to curb early dilution. 
+Treasury/ylSphere (vePREON): This allocation was given to the Sphere treasury in the form of a veNFT and will remain locked. The veNFT will start as blacklisted and gradually become whitelisted to curb early dilution. 
 
-Incentives ($PREON): This allocation will be used for incentives, and will be unlocked for potential incentivization campaigns.
+Incentives (PREON): This allocation will be used for incentives, and will be unlocked for potential incentivization campaigns.
 
-Team ($vePREON): A veNFT is given to the team. This will begin as blacklisted and gradually become whitelisted at a slower rate than others. It will be held by the Treasury to maintain governance.
+Team (vePREON): A veNFT is given to the team. This will begin as blacklisted and gradually become whitelisted at a slower rate than others. It will be held by the Treasury to maintain governance.
 
-Marketing/Airdrops ($vePREON): This allocation will be used in marketing campaigns including a small portion for the Starlord airdrop. It will be blacklisted until used for marketing.
+Marketing/Airdrops (vePREON): This allocation will be used in marketing campaigns including a small portion for the Starlord airdrop. It will be blacklisted until used for marketing.
 
-Partnerships & BD ($vePREON): Will be used for partnerships and is blacklisted until it is needed.
+Partnerships & BD (vePREON): Will be used for partnerships and is blacklisted until it is needed.
 
 Blacklisted means that these veNFTs initially do not receive any yield from the protocol. 
 
@@ -54,10 +54,10 @@ Blacklisted means that these veNFTs initially do not receive any yield from the 
 | Marketing/Airdrops   | 18      | 0xE799961B76d65A32365D34289D5AeA6C2242FC98  |   
 | Partnerships & BD    | 17      | 0xE799961B76d65A32365D34289D5AeA6C2242FC98  |
 
-# $vePREON — ERC-721 governance token in the form of an NFT
+# vePREON — ERC-721 governance token in the form of an NFT
 
-$vePREON is the vote-escrowed version of $PREON. Users can lock their $PREON tokens for up to 2 years to receive $vePREON.
+vePREON is the vote-escrowed version of PREON. Users can lock their PREON tokens for up to 2 years to receive vePREON.
 
-$vePREON holders participate in protocol revenue sharing from various streams.
+vePREON holders participate in protocol revenue sharing from various streams.
 
-To encourage continuous locking and sustained participation from stakeholders, the $vePREON balance of users decays over time until it reaches zero at the conclusion of the initial locking period. $vePREON positions can be merged, extended, and transferred.
+To encourage continuous locking and sustained participation from stakeholders, the vePREON balance of users decays over time until it reaches zero at the conclusion of the initial locking period. vePREON positions can be merged, extended, and transferred.

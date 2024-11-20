@@ -10,33 +10,33 @@ import ReactPlayer from 'react-player'
 
 ## What is the Stability pool?
 
-The Stability Pool is a mechanism that $STAR users can utilize to earn liquidation fees. Stability Pools are essential for CDPs, ensuring that the supply of $STAR is always collateralized.
+The Stability Pool is a mechanism that STAR users can utilize to earn liquidation fees. Stability Pools are essential for CDPs, ensuring that the supply of STAR is always collateralized.
 
-When any Nebula Vault is liquidated, the amount of $STAR corresponding to the debt is burned from the Stability Pool in exchange for the collateral from the vault to the Stability Pool.
+When any Nebula Vault is liquidated, the amount of STAR corresponding to the debt is burned from the Stability Pool in exchange for the collateral from the vault to the Stability Pool.
 
-The Stability Pool is funded by users depositing their $STAR tokens.
+The Stability Pool is funded by users depositing their STAR tokens.
 
-Over time, users' $STAR deposits are burned in exchange for a share of liquidated collateral, as well as $oPREON emissions.\*
+Over time, users' STAR deposits are burned in exchange for a share of liquidated collateral, as well as oPREON emissions.\*
 
 For example:
 
-A user's $wETH is liquidated, and the collateral is distributed to Stability Pool providers. Because every loan is over-collateralized, every time Stability Pool providers redeem collateral in exchange for burning $STAR, they earn a net profit from the transaction.
+A user's wETH is liquidated, and the collateral is distributed to Stability Pool providers. Because every loan is over-collateralized, every time Stability Pool providers redeem collateral in exchange for burning STAR, they earn a net profit from the transaction.
 
-Note: even in the absence of liquidated collateral, Stability Pool providers still earn $oPREON emissions.
+Note: even in the absence of liquidated collateral, Stability Pool providers still earn oPREON emissions.
 
 \*Initially, only the Stability Pool on Base will be earning emissions.
 
-## Why should I deposit $STAR into the Stability Pool?
+## Why should I deposit STAR into the Stability Pool?
 
-The LTV ratio of the collateral types being liquidated on Preon is inversely correlated with liquidation earnings. For instance, users can anticipate buying $wETH at a roughly 10% discount when a $wETH vault is liquidated.
+The LTV ratio of the collateral types being liquidated on Preon is inversely correlated with liquidation earnings. For instance, users can anticipate buying wETH at a roughly 10% discount when a wETH vault is liquidated.
 
-To ensure that the entire $STAR supply remains over-collateralized, Nebula Vaults that exceed the maximum LTV ratio will be closed (liquidated).
+To ensure that the entire STAR supply remains over-collateralized, Nebula Vaults that exceed the maximum LTV ratio will be closed (liquidated).
 
 The debt of the Nebula Vault is canceled and absorbed by the Stability Pool, with its collateral distributed among Stability Pool providers.
 
-The full amount of $STAR borrowed is still in the possession of the vault's owner. Although the user loses value overall, it is important to constantly maintain a ratio higher than the rate specified by the protocol in order to prevent being liquidated.
+The full amount of STAR borrowed is still in the possession of the vault's owner. Although the user loses value overall, it is important to constantly maintain a ratio higher than the rate specified by the protocol in order to prevent being liquidated.
 
-Additionally, Stability Pool providers earn emissions in $oPREON, which amplifies their yield returns.
+Additionally, Stability Pool providers earn emissions in oPREON, which amplifies their yield returns.
 
 ## Can I withdraw my deposit whenever I want?
 
@@ -44,6 +44,6 @@ You can generally take your deposit from the Stability Pool out whenever you wan
 
 ## Can I lose funds by depositing to the Stability Pool?
 
-Although unlikely, it is possible in theory that a vault gets liquidated below 100% CR in flash crashes or oracle failures. In cases like this, you may experience a loss due to the collateral gain being below the amount of $STAR deposited.
+Although unlikely, it is possible in theory that a vault gets liquidated below 100% CR in flash crashes or oracle failures. In cases like this, you may experience a loss due to the collateral gain being below the amount of STAR deposited.
 
-If $STAR trades above $1, liquidations may also become unprofitable. Preon's Stability Pool is built on audited code-bases, but contract risks are always present.
+If STAR trades above $1, liquidations may also become unprofitable. Preon's Stability Pool is built on audited code-bases, but contract risks are always present.

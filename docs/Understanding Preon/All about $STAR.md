@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# All about $STAR
+# All about STAR
 
 ![AllAboutStar!](../assets/all-about-star.jpg "All About Star")
 
-$STAR is an over-collateralized stablecoin backed by a 110% minimum collateral ratio. Loans are secured by always having more value locked than the amount of debt given out.
+STAR is an over-collateralized stablecoin backed by a 110% minimum collateral ratio. Loans are secured by always having more value locked than the amount of debt given out.
 
 Preon introduced a linear fee model in the minting process.
 

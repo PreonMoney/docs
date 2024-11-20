@@ -10,24 +10,24 @@ import ReactPlayer from 'react-player'
 
 ## What are option calls?
 
-Within the context of Preon, option-call $PREON (or $oPREON) is an illiquid token earned upon depositing in Preon’s Stability Pool. It can be redeemed for $PREON at a discount. Redemption is done via $STAR at a variable discount set by Preon policy.
+Within the context of Preon, option-call PREON (or oPREON) is an illiquid token earned upon depositing in Preon’s Stability Pool. It can be redeemed for PREON at a discount. Redemption is done via STAR at a variable discount set by Preon policy.
 
-Other than redemption, $oPREON can be zapped into $vePREON at a 1:1 ratio.
+Other than redemption, oPREON can be zapped into vePREON at a 1:1 ratio.
 
-## How do I earn $oPREON?
+## How do I earn oPREON?
 
-$oPREON is currently only earnable through the Stability Pool.
+oPREON is currently only earnable through the Stability Pool.
 
-## How do I redeem $oPREON?
+## How do I redeem oPREON?
 
-Users have a fixed rate at which they are able to redeem $oPREON. This incentivizes users to deposit more liquidity into the Stability Pool, strengthening the $STAR peg.
+Users have a fixed rate at which they are able to redeem oPREON. This incentivizes users to deposit more liquidity into the Stability Pool, strengthening the STAR peg.
 
 Users can:
-Zap $oPREON into $vePREON at a 1:1 ratio
-Use the in-house swap (support applicable on a chain-per-chain basis) to redeem $oPREON for $STAR without the need for upfront capital, only a minimal fee of 1-3%
-Use $STAR to redeem $oPREON for $PREON at a variable discount
+Zap oPREON into vePREON at a 1:1 ratio
+Use the in-house swap (support applicable on a chain-per-chain basis) to redeem oPREON for STAR without the need for upfront capital, only a minimal fee of 1-3%
+Use STAR to redeem oPREON for PREON at a variable discount
 
-## How are $oPREON options formulated?
+## How are oPREON options formulated?
 
 The formula is very simple:
 𝑠𝑡𝑟𝑖𝑘𝑒𝑃𝑟𝑖𝑐𝑒=𝑠𝑝𝑜𝑡𝑃𝑟𝑖𝑐𝑒×𝑑𝑖𝑠𝑐𝑜𝑢𝑛𝑡𝑃𝑒𝑟𝑐𝑒𝑛𝑡𝑎𝑔𝑒
@@ -37,13 +37,13 @@ The discount is variable & set by Preon policy depending on what is being incent
 It cannot be changed once locked in, ensuring that redemption is at the discount the user agreed to.
 
 Example:
-Bob supplies $STAR to the Stability Pool on Preon & earns $100 worth of $oPREON. For this example, the discount is set to 20%.
-To realize his rewards, Bob redeems his $oPREON for $80 worth of $STAR.
-The $STAR is deposited into the Stability Pool on behalf of the Treasury, creating consistent peg safety, and absorbing the minted stablecoin supply to become POL (Protocol Owned Liquidity), allowing upward pressure for the stablecoin to be arbitraged against.
+Bob supplies STAR to the Stability Pool on Preon & earns $100 worth of oPREON. For this example, the discount is set to 20%.
+To realize his rewards, Bob redeems his oPREON for $80 worth of STAR.
+The STAR is deposited into the Stability Pool on behalf of the Treasury, creating consistent peg safety, and absorbing the minted stablecoin supply to become POL (Protocol Owned Liquidity), allowing upward pressure for the stablecoin to be arbitraged against.
 
-Bob can now sell his $PREON for a $20 profit.
+Bob can now sell his PREON for a $20 profit.
 OR
-Bob wants to lock his $100 worth of $oPREON for $100 worth of $vePREON to earn protocol fees.
+Bob wants to lock his $100 worth of oPREON for $100 worth of vePREON to earn protocol fees.
 
 ## What are the benefits of call options over liquidity mining?
 
@@ -54,4 +54,4 @@ Bob wants to lock his $100 worth of $oPREON for $100 worth of $vePREON to earn p
 
 ## **Implementation details**
 
-$oPREON is an ERC-20 option token that is tradeable. $oPREON derives its properties such as strike price, expiry period & redemption on a contract level.
+oPREON is an ERC-20 option token that is tradeable. oPREON derives its properties such as strike price, expiry period & redemption on a contract level.
