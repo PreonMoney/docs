@@ -1,151 +1,227 @@
 /* Base styles */
 :root {
-    --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    --rounded-corners: 6px;
-    --button-hover-bg: #f2f2f2;
-    --button-active-bg: #e2e2e2;
-    --control-bg-color: #ffffff;
-    --text-color: #333333;
-    }
-    
-    /* Container needing to be set to a flex container to center the child */
-    .container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%; /* or a fixed height as per your design */
-    position: relative;
-    }
-    
-    /* Page controls specific styles */
-    .pageControls {
-    position: absolute;
-    bottom: 0;
-    transform: translateX(-50%);
-    left: 10%;
-    background: white;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
-    box-shadow: var(--shadow);
-    border-radius: var(--rounded-corners);
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    }
-    
-    /* Parent hover effects */
-    .container:hover .pageControls {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    }
-    
-    .pageControls span {
-    font-size: 0.9em;
-    color: var(--text-color);
-    background: var(--control-bg-color);
-    padding: 0 0.5em;
-    }
-    
-    .pageControls button {
-    width: 36px;
-    height: 36px;
-    background: var(--control-bg-color);
-    border: 0;
-    font-size: 0.9em;
-    color: var(--text-color);
-    border-radius: var(--rounded-corners);
-    display: flex;
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --rounded-corners: 6px;
+  --button-hover-bg: #f2f2f2;
+  --button-active-bg: #e2e2e2;
+  --control-bg-color: #ffffff;
+  --text-color: #333333;
+}
+
+/* Container set to flex with responsive adjustments */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Page controls specific styles */
+.pageControls {
+  background: white;
+  box-shadow: var(--shadow);
+  border-radius: var(--rounded-corners);
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+.container:hover .pageControls {
+  /* Controls are always visible */
+}
+
+.pageControls span {
+  font-size: 0.9em;
+  color: var(--text-color);
+  background: var(--control-bg-color);
+  padding: 0 0.5em;
+}
+
+.pageControls button {
+  width: 36px;
+  height: 36px;
+  background: var(--control-bg-color);
+  border: 0;
+  font-size: 1.2em;
+  color: var(--text-color);
+  border-radius: var(--rounded-corners);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 0 0.5em;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+
+.pageControls button:enabled:hover {
+  cursor: pointer;
+  background-color: var(--button-hover-bg);
+}
+
+.pageControls button:enabled:active {
+  background-color: var(--button-active-bg);
+  transform: scale(0.9);
+}
+
+.pageControls button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.pageControls button:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Search controls specific styles */
+.searchControls {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  box-shadow: var(--shadow);
+  border-radius: var(--rounded-corners);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.container:hover .searchControls {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Document viewer styles */
+.documentViewer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+  .documentViewer {
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.3s, transform 0.2s;
-    }
-    
-    .pageControls button:enabled:hover {
-    cursor: pointer;
-    background-color: var(--button-hover-bg);
-    }
-    
-    .pageControls button:enabled:active {
-    background-color: var(--button-active-bg);
-    transform: scale(0.9);
-    }
-    
-    .pageControls button:first-child {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    }
-    
-    .pageControls button:last-child {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    }
-    
-    .searchControls {
-    position: absolute;
-    bottom: 100%;
-    transform: translateX(-50%);
-    left: 100%;
-    background: white;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
-    box-shadow: var(--shadow);
-    border-radius: var(--rounded-corners);
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    }
-    
-    /* Parent hover effects */
-    .container:hover .searchControls {
-    opacity: 1;
-    visibility: visible;
-    }
-    
-    .documentViewer {
-    display: flex;  /* Establishes a flex container */
-    align-items: stretch;  /* Align children full height of the container */
-    justify-content: start;  /* Align children to the start of the flex container */
-    width: 100%;  /* Takes full width of its parent container */
-    height: 100%;  /* Optional: Adjust based on your layout needs */
-    }
-    
-    .documentViewer > .react-pdf__Outline {
-    flex: 1;  /* Allows the outline to grow and take up space */
-    border-right: 1px solid #ccc;  /* Adds a separator between the outline and the page */
-    padding-right: 20px;  /* Adds some padding for visual spacing */
-    overflow-y: auto;  /* Adds scroll to the outline if content overflows */
-    }
-    
-    .documentViewer > .react-pdf__Page {
-    flex: 3;  /* Allows the page to take more space than the outline */
-    padding-left: 20px;  /* Adds some padding for visual spacing */
-    }
-    
-    
-    /* Page controls specific styles */
-    .searchControls {
-    position: absolute;
-    bottom: 100%;
-    transform: translateX(-50%);
-    left: 100%;
-    background: white;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
-    box-shadow: var(--shadow);
-    border-radius: var(--rounded-corners);
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    padding: 0.5em;
-    }
-    
-    /* Parent hover effects */
-    .container:hover .searchControls {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    }
+  }
+
+  .documentViewer > .react-pdf__Outline {
+    flex: 1;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+    overflow-y: auto;
+  }
+
+  .documentViewer > .react-pdf__Page {
+    flex: 3;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  .documentViewer > .react-pdf__Outline {
+    display: none;
+  }
+
+  .documentViewer > .react-pdf__Page {
+    padding: 0;
+  }
+
+  /* Adjust pageControls for mobile */
+  .pageControls {
+    margin-top: 5px;
+    padding: 0.3em;
+  }
+
+  .pageControls button {
+    width: 32px;
+    height: 32px;
+    font-size: 1em;
+    margin: 0 0.3em;
+    margin: 0 5px;
+    padding: 5px 8px;
+  }
+
+  .pageControls span {
+    font-size: 0.8em;
+    padding: 0 0.3em;
+  }
+}
+
+/* Ensure PDF pages fit within the container */
+.react-pdf__Page__canvas {
+  width: auto !important;
+  height: 100% !important;
+}
+
+/* Optional: Make sure the PDF doesn't exceed the viewport height */
+.container,
+.documentViewer,
+.react-pdf__Page__canvas {
+  max-width: 100%;
+}
+
+/* Additional styles to enhance mobile experience */
+@media (max-width: 599px) {
+  .pageControls {
+    bottom: 5px;
+    padding: 0.3em;
+    margin-top: 5px;
+  }
+
+  .pageControls button {
+    width: 32px;
+    height: 32px;
+    font-size: 1em;
+    margin: 0 0.3em;
+    margin: 0 5px;
+    padding: 5px 8px;
+  }
+
+  .pageControls span {
+    font-size: 0.8em;
+    padding: 0 0.3em;
+  }
+}
+
+/* New CSS for ensuring no horizontal overflow */
+.pdfWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: none;
+  overflow: hidden;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 5px;
+  }
+
+  .pageControls {
+    margin-top: 5px;
+  }
+
+  .pageControls button {
+    margin: 0 5px;
+    padding: 5px 8px;
+    font-size: 14px;
+  }
+}
